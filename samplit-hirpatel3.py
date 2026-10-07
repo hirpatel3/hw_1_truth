@@ -7,7 +7,6 @@ def skim(file_n):
             if random.random() < 0.01:
                 sys.stdout.write(line) 
 
-
 def main():
     file_n = sys.argv[1]
     skim(file_n)
